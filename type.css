@@ -1,0 +1,164 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+
+footer {
+    width: 100%;
+    color: #D0A2F7;
+    background-color: lavender;
+    text-align: center;
+    
+}
+
+
+i {
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+i:hover {
+    transform: scale(1.6);
+}
+
+h1,h3{
+    font-family: 'Playfair Display', serif;
+}
+.card-text{
+    font-family: 'Playfair Display', serif; 
+}
+
+
+@media (max-width:600px) {
+    header{
+        margin: 0 auto;
+        justify-content: space-evenly;
+    }
+
+    header img{
+        width: 70px;
+
+    }
+
+    #parentContainer{
+        text-align: center;
+        background-color:#B4BDFF;
+    }
+
+    #cardDetail section{
+        width: 300px;
+        margin: 0 auto;
+        gap: 15px;
+        
+    }
+
+    .card{
+       text-align: center;
+    }
+
+    .card img{
+        width: 300px;
+        padding: 2em;
+        margin: 0 auto;
+    }
+
+    h1,h3{
+        font-family: 'Playfair Display', serif;
+    }
+    .card-text{
+        font-family: 'Playfair Display', serif; 
+    }
+    
+}
+
+
+@media (min-width: 601px) and (max-width: 768px) {
+    header{
+        margin: 0 auto;
+        justify-content: space-evenly;
+    }
+
+    header img{
+        width: 70px;
+
+    }
+
+    #parentContainer{
+        text-align: center;
+        background-color:#B4BDFF;
+    }
+
+    #cardDetail section{
+        width: 500px;
+        margin: 0 auto;
+        gap: 15px;
+        
+    }
+
+    .card{
+        width: 500px;
+        margin: 0 auto;
+    } 
+    
+    .card img{
+        width: 300px;
+        margin: 0 auto;
+    }  
+    h1,h3{
+        font-family: 'Playfair Display', serif;
+    }
+    .card-text{
+        font-family: 'Playfair Display', serif; 
+    }
+} 
+
+
+@media (min-width: 769px) {
+    header{
+        margin: 0 auto;
+       
+    }
+
+    .navbar-nav{
+        margin-right: 100px;
+        text-align: center;
+    }
+
+    header img{
+        width: 70px;
+
+    }
+
+    #parentContainer{
+        text-align: center;
+        padding: 2em;
+        background-color:#B4BDFF;
+    }
+
+    #cardDetail section{
+        display: flex;
+        margin: 0 auto;
+        gap: 15px;
+        
+    }
+
+    .card{
+        width: 400px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+    } 
+
+    
+    
+    .card img{
+        width: 200px;
+        margin: 0 auto;
+        
+    }  
+    h1,h3{
+        font-family: 'Playfair Display', serif;
+    }
+    .card-text{
+        font-family: 'Playfair Display', serif; 
+    }
+}

@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+
+i {
+  font-size: 40px;
+  margin-left: 10px;
+}
+
+i:hover {
+  transform: scale(1.6);
+}
+
+.picture:hover {
+  transform: scale(1.3);
+}
+
+
+@media (max-width: 600px) {
+  header img{
+    width: 70px;
+  }  
+  .carousel-inner {
+    width: 100%;
+  }
+  .carousel-inner img{
+    object-fit: contain;
+    height: 200px;
+    
+  }
+
+  #parentContainer{
+    text-align: center;
+    margin: 0 auto;
+    background: linear-gradient(#164863,#427D9D,#9BBEC8,#DDF2FD);
+  }
+
+  #parentOne {
+    text-align: center;
+    margin: 0 auto;
+    background: linear-gradient(#164863,#427D9D,#9BBEC8,#DDF2FD);
+    padding: 1em;
+  }
+
+  .childOne {
+    margin: 0 auto;
+    padding: 2em;
+  }
+
+  .childOne img{
+    width: 300px;
+    padding: 2em;
+  }
+
+  #parentTwo {
+    text-align: center;
+    margin: 0 auto;
+    padding: 3em;
+  }
+
+  #parentTwo img{
+    width: 300px;
+    padding: 2em;
+  }
+
+  #parentThree {
+
+    text-align: center;
+  }
+
+  #kc{
+    margin: 0 auto;
+    
+  }
+
+  
+h3{
+  color: white;
+  font-family: 'Playfair Display', serif;
+}
+#kc img{
+    width: 200px;
+    margin: 0 auto;
+  }
+h1{
+  color: white;
+  font-family: 'Playfair Display', serif;
+}
+h4{
+  font-family: 'Playfair Display', serif;
+}
+
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+    header img{
+        width: 70px;
+      }  
+    
+      .carousel-inner {
+        width: 100%;
+      }
+      .carousel-inner img{
+        object-fit: contain;
+        height: 400px;
+        
+      }
+    
+      #parentContainer{
+        text-align: center;
+        margin: 0 auto;
+        background: linear-gradient(#164863,#427D9D,#9BBEC8,#DDF2FD);
+      }
+
+      h1{
+        color: white;
+        padding: 2em;
+        font-size: 50px;
+      }
+    
+      #parentOne {
+        text-align: center;
+        margin: 0 auto;
+        background: linear-gradient(#164863,#427D9D,#9BBEC8,#DDF2FD);
+        padding: 2em;
+      }
+    
+      .childOne {
+        margin: 0 auto;
+        padding: 3em;
+      }
+
+      #history{
+        background-image: url("history.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        padding: 2em;
+      }
+
+      .paragraph{
+        color: black;
+        text-shadow: 1px 1px 1px white;
+      }
+    
+      .childOne img{
+        width: 500px;
+        padding: 2em;
+      }
+    
+      #parentTwo {
+        text-align: center;
+        margin: 0 auto;
+        padding: 3em;
+      }
+    
+      #parentTwo img{
+        width: 500px;
+        padding: 2em;
+      }
+    
+      #parentThree {
+        text-align: center;
+      }
+    
+      #kc{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+      }
+    
+    #kc img{
+        
+        width: 150px;
+        margin: 0 auto;
+        padding: 1em;
+      }   
+}
+
+@media (min-width: 769px) {
+    header img{
+        width: 80px;
+        padding: 5px;
+      }  
+    
+      .carousel-inner {
+        width: 100%;
+      }
+      .carousel-inner img{
+        object-fit: contain;
+        height: 500px;
+        
+      }
+    
+      #parentContainer{
+        text-align: center;
+        margin: 0 auto;
+        background: linear-gradient(#164863,#427D9D,#9BBEC8,#DDF2FD);
+      }
+
+      h1{
+        color: white;
+        padding: 2em;
+        font-size: 50px;
+      }
+    
+      #parentOne {
+        text-align: center;
+        margin: 0 auto;
+        background: linear-gradient(#164863,#427D9D,#9BBEC8,#DDF2FD);
+        padding: 3em;
+      }
+    
+      .childOne {
+        margin: 0 auto;
+        padding: 4em;
+      }
+    
+      .childOne img{
+        width: 600px;
+        padding: 4em;
+      }
+    
+      #parentTwo {
+        text-align: center;
+        margin: 0 auto;
+        padding: 4em;
+      }
+    
+      #parentTwo img{
+        width: 500px;
+        padding: 3em;
+      }
+    
+      #parentThree {
+        text-align: center;
+      }
+    
+      #kc{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+      }
+    
+    #kc img{
+        
+        width: 200px;
+        margin: 0 auto;
+        padding: 1em;
+      }     
+}
